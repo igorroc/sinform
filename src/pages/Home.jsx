@@ -1,8 +1,10 @@
-import { styled } from "@stitches/react"
+import { styled } from "../components/Global/Breakpoints"
 import Botao from "../components/Botao"
 import Header from "../components/Header"
 import BG1 from "../assets/bg_tex1.png"
 import BG2 from "../assets/bg_tex2.png"
+import Schedule from "../components/Schedule"
+import Footer from "../components/Footer"
 
 const Main = styled("main", {
 	position: "relative",
@@ -24,6 +26,10 @@ const Main = styled("main", {
 
 		"&#bg_left": {
 			left: "-70px",
+
+			"@bp1": {
+				left: "-120px",
+			},
 		},
 
 		"&#bg_right": {
@@ -69,29 +75,45 @@ function Home() {
 				<Botao href="./">Quero participar!</Botao>
 			</Main>
 
-			<Section className="inverted" id="Sobre">
+			<Section id="Sobre">
 				<div className="wrapper">
-					<h1>
-						Sobre: Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit.
-					</h1>
+					<h1>Sobre a SINFORM</h1>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Neque convallis rhoncus proin nisl ut nunc. Consectetur
-						mauris, blandit commodo viverra arcu ut in lorem.
+						O <b>SINFORM</b> é a Semana de Informática promovida
+						pela UESC em parceria com o curso de Ciência da
+						Computação. O evento reúne diversos profissionais do
+						ramo da tecnologia que promoverão palestras e
+						minicursos. Em sua XX (vigésima) edição o <b>SINFORM</b>{" "}
+						trará discussões a respeito da sua temática principal:{" "}
+						<b>Metaverso</b>; mostrando de que forma aqueles, que
+						almejam seguir uma carreira na área da tecnologia,
+						poderão se aprofundar e aproveitar dessa nova realidade.
 					</p>
-					<ul>
-						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
-						</li>
-						<li>Neque convallis rhoncus proin nisl ut nunc.</li>
-						<li>
-							Consectetur mauris, blandit commodo viverra arcu ut
-							in lorem.
-						</li>
-					</ul>
+					<p>
+						O <b>SINFORM</b> 2022 acontecerá nos dias 28, 29 e 30 de
+						setembro, e sua programação contará com minicursos pela
+						manhã, palestras a tarde e Lives em nosso canal do
+						YouTube pela noite.
+					</p>
+					<p>
+						Essa edição também contará com um dia bônus, dedicado ao
+						Campeonato Universitário de Programação (CPU) que
+						ocorrerá no dia 1 de outubro.
+					</p>
+					<p> Participe! O evento é 100% ONLINE e GRATUITO.</p>
+
 					<Botao href="./">Quero participar!</Botao>
+				</div>
+			</Section>
+
+			<Section id="Programacao" className="inverted">
+				<div className="wrapper">
+					<h1>Programação</h1>
+					<p>
+						Confira a programação do evento, ou baixe o pdf{" "}
+						<a href="/download">aqui</a>
+					</p>
+					<Schedule />
 				</div>
 			</Section>
 
@@ -121,7 +143,7 @@ function Home() {
 				</div>
 			</Section>
 
-			<Section id="Cursos">
+			<Section id="Cursos" className="inverted">
 				<div className="wrapper">
 					<h1>
 						Sobre: Lorem ipsum dolor sit amet, consectetur
@@ -146,6 +168,8 @@ function Home() {
 					<Botao href="./">Quero participar!</Botao>
 				</div>
 			</Section>
+
+			<Footer />
 		</>
 	)
 }
