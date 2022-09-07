@@ -6,6 +6,7 @@ const Button = styled("a", {
 	padding: "10px 20px",
 	borderRadius: "100px",
 	width: "max-content",
+	textDecoration: "none",
 
 	transition: "all 300ms ease-out",
 
