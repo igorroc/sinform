@@ -1,7 +1,7 @@
 import { styled } from "../components/Global/Breakpoints"
 import Botao from "../components/Botao"
 import Header from "../components/Header"
-import BG from "../assets/bg.png"
+import BG from "../assets/bg2.png"
 import Wave from "../assets/bg-02.png"
 import asset from "../assets/main.png"
 import assetGif from "../assets/main.gif"
@@ -55,6 +55,7 @@ const Main = styled("main", {
 		gap: "10px",
 		width: "90%",
 		maxWidth: "var(--max-width)",
+		textShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
 
 		"*": {
 			color: "#fff",
@@ -127,7 +128,7 @@ function Home() {
 						</span>
 					</h1>
 					<h2>SINFORM • Semana de Informática</h2>
-					<p>30 de Setembro • UESC</p>
+					<p>28 de Setembro • UESC</p>
 					<Botao
 						href="./inscricao"
 						variant
