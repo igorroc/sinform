@@ -39,7 +39,7 @@ export default function Footer() {
 				<img src={Logo} alt="Logo do Sinform" />
 			</a>
 			<h3>Semana de Informática</h3>
-			<p>30 de Setembro • UESC</p>
+			<p>28 de Setembro • UESC</p>
 			<Botao href="./inscricao">Quero participar!</Botao>
 			<div className="redes">
 				<a target="_blank" href="https://www.instagram.com/cacicuesc/">
