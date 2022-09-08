@@ -40,7 +40,7 @@ export default function Footer() {
 			</a>
 			<h3>Semana de Informática</h3>
 			<p>30 de Setembro • UESC</p>
-			<Botao href="./">Quero participar!</Botao>
+			<Botao href="./inscricao">Quero participar!</Botao>
 			<div className="redes">
 				<a target="_blank" href="https://www.instagram.com/cacicuesc/">
 					<Icon icon="ant-design:instagram-filled" />

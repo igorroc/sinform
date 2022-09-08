@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 import { Icon } from "@iconify/react"
 
 const Space = styled("div", {
-	height: "100px",
+	height: "80px",
 })
 
 const Head = styled("header", {
@@ -18,6 +18,18 @@ const Head = styled("header", {
 	height: "80px",
 	backgroundColor: "#fffa",
 	backdropFilter: "blur(50px)",
+	transition: "all 0.5s ease-in-out",
+
+	"&.custom": {
+		backgroundColor: "#e89550",
+		"a:not(:last-child)": {
+			color: "#000",
+
+			"@bp2": {
+				color: "#fff",
+			},
+		},
+	},
 })
 
 const HeaderContent = styled("div", {
@@ -80,6 +92,10 @@ const LinkList = styled("div", {
 	backgroundColor: "#fff",
 	transition: "all 600ms ease-out",
 
+	a: {
+		color: "#000",
+	},
+
 	"a:first-child": {
 		marginTop: "20px",
 	},
@@ -95,8 +111,8 @@ const LinkList = styled("div", {
 		},
 	},
 	"a:last-child": {
-		marginTop: "auto",
-		marginBottom: "20px",
+		marginTop: "20px",
+		color: "#fff",
 	},
 
 	"&:before": {
@@ -130,13 +146,22 @@ const LinkList = styled("div", {
 			content: "unset",
 		},
 
+		"a:not(:last-child)": {
+			width: "unset",
+			transition: "all 250ms ease-out",
+		},
+
 		"a:first-child": {
 			marginTop: "unset",
 		},
 		"a:last-child": {
 			marginTop: "unset",
 			marginBottom: "unset",
-			width: "200px",
+		},
+
+		"a:not(:last-child):hover": {
+			backgroundColor: "unset",
+			letterSpacing: "1px",
 		},
 
 		"&.hidden": {
@@ -146,10 +171,10 @@ const LinkList = styled("div", {
 })
 
 function Header() {
+	const [isMenuOpen, setIsMenuOpen] = useState(false)
 	const [isDesktop, setIsDesktop] = useState(
 		window.matchMedia("(min-width: 1000px)").matches
 	)
-	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 	useEffect(() => {
 		window
@@ -170,9 +195,17 @@ function Header() {
 					<HeaderContent>
 						<a href="./">
 							{isDesktop ? (
-								<img src={Logo} alt="Logo do Sinform" />
+								<img
+									src={Logo}
+									alt="Logo do Sinform"
+									className="logo"
+								/>
 							) : (
-								<img src={LogoSmall} alt="Logo do Sinform" />
+								<img
+									src={LogoSmall}
+									alt="Logo do Sinform"
+									className="logo"
+								/>
 							)}
 						</a>
 						{!isDesktop && (
@@ -197,7 +230,7 @@ function Header() {
 							<a href="./#Programacao">Programação</a>
 							<a href="./#Palestrantes">Palestrantes</a>
 							<a href="./#Cursos">Cursos</a>
-							<Botao href="./">Quero participar!</Botao>
+							<Botao href="./inscricao">Quero participar!</Botao>
 						</LinkList>
 					</HeaderContent>
 				</MaxWrapper>
