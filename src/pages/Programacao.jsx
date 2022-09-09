@@ -1,5 +1,7 @@
 import { styled } from "@stitches/react"
 import React from "react"
+import { useState } from "react"
+import { useEffect } from "react"
 import download from "../assets/download.gif"
 
 const Main = styled("main", {
@@ -46,21 +48,40 @@ const Main = styled("main", {
 	},
 })
 export default function Programacao() {
+	const [count, setCount] = useState(0)
+	const frases = ["3 segundos", "2 segundos", "1 segundo", "0 segundos"]
+
+	useEffect(() => {
+		const redirect = setTimeout(() => {
+			window.location.href =
+				"https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing"
+		}, 3000)
+		const seconds = setInterval(() => {
+			setCount((prev) => prev + 1)
+		}, 1000)
+		console.log(count)
+
+		return () => {
+			clearTimeout(redirect)
+			clearInterval(seconds)
+		}
+	}, [])
+
 	return (
 		<Main>
 			<div className="modal">
 				<div className="img">
 					<img src={download} alt="send" />
 				</div>
-				<h1>Download iniciando!</h1>
+				<h1>Aguente firme!</h1>
 				<p>
-					O seu download deve começar automaticamente em alguns
-					segundos.
+					Você vai ser redirecionado para outra página, deve levar{" "}
+					{frases[count]}.
 				</p>
-				<div className="small">
-					<p>Caso o download não comece, clique no link:</p>
-					<a href="https://sinform.uesc.br/programacao.pdf">
-						https://sinform.uesc.br/programacao.pdf
+				<div className="small" id="small">
+					<p>Caso você não seja redirecionado, clique no link:</p>
+					<a href="https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing">
+						https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing
 					</a>
 				</div>
 				<div className="bar"></div>

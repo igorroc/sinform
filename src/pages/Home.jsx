@@ -188,8 +188,9 @@ function Home() {
 				<div className="wrapper">
 					<h1>Programação</h1>
 					<p>
-						Confira a programação do evento, ou baixe o pdf{" "}
-						<a href="/programacao">aqui</a>
+						Confira a programação do evento, ou acompanhe a planilha
+						em tempo real da programação{" "}
+						<a href="/programacao">clicando aqui</a>
 					</p>
 					<Schedule />
 				</div>
