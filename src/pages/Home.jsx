@@ -306,7 +306,15 @@ function Home() {
 						</li>
 						<li>Entre outros.</li>
 					</ul>
-					<Botao href="https://cpu.tecnojr.com.br" target="_blank">
+					<Botao
+						href="https://cpu.tecnojr.com.br"
+						target="_blank"
+						variant
+						style={{
+							fontSize: "1em",
+							lineHeight: "2.5em",
+						}}
+					>
 						Quero competir!
 					</Botao>
 				</div>
