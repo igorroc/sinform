@@ -119,6 +119,42 @@ const Section = styled("section", {
 	},
 })
 
+const Legenda = styled("div", {
+	display: "flex",
+	flexDirection: "column",
+	gap: "10px",
+	".leg_item": {
+		display: "flex",
+		alignItems: "center",
+		gap: "10px",
+
+		width: "100%",
+		maxWidth: "300px",
+
+		".leg_block": {
+			width: "30px",
+			height: "30px",
+			background: "white",
+
+			"&.apresentacao": {
+				background: "linear-gradient(to right, #fbbc04, #cf9b06)",
+			},
+			"&.live": {
+				background: "linear-gradient(to right, #d14c28, #8f270a)",
+			},
+			"&.minicurso": {
+				background: "linear-gradient(to right, #fa9822, #ee5627)",
+			},
+			"&.palestra": {
+				background: "linear-gradient(to right, #22faa4, #15bd7a)",
+			},
+			"&.pausa": {
+				background: "linear-gradient(to right, #46bdc6, #1c7a94)",
+			},
+		},
+	},
+})
+
 function Home() {
 	const { height, width } = useWindowDimensions()
 
@@ -209,6 +245,29 @@ function Home() {
 						em tempo real da programação{" "}
 						<a href="/programacao">clicando aqui</a>
 					</p>
+					<Legenda>
+						<h3>Legenda</h3>
+						<div className="leg_item">
+							<div className="leg_block apresentacao"></div>
+							<p>Apresentação</p>
+						</div>
+						<div className="leg_item">
+							<div className="leg_block minicurso"></div>
+							<p>Minicurso</p>
+						</div>
+						<div className="leg_item">
+							<div className="leg_block palestra"></div>
+							<p>Palestra</p>
+						</div>
+						<div className="leg_item">
+							<div className="leg_block pausa"></div>
+							<p>Pausa</p>
+						</div>
+						<div className="leg_item">
+							<div className="leg_block live"></div>
+							<p>Live</p>
+						</div>
+					</Legenda>
 					<Schedule />
 				</div>
 			</Section>
