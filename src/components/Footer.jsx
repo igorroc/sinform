@@ -60,7 +60,7 @@ export default function Footer() {
 				<a target="_blank" href="https://www.instagram.com/cacicuesc/">
 					<Icon icon="ant-design:instagram-filled" />
 				</a>
-				<a target="_blank" href="https://linktr.ee/cacicinova">
+				<a target="_blank" href="https://linktr.ee/cacicuesc">
 					<Icon icon="simple-icons:linktree" />
 				</a>
 			</div>
