@@ -228,8 +228,7 @@ function Header() {
 							<a href="./#scrollTop">Inicio</a>
 							<a href="./#Sobre">Sobre</a>
 							<a href="./#Programacao">Programação</a>
-							<a href="./#Palestrantes">Palestrantes</a>
-							<a href="./#Cursos">Cursos</a>
+							<a href="./#LineUp">Line-up</a>
 							<Botao href="./inscricao">Quero participar!</Botao>
 						</LinkList>
 					</HeaderContent>
