@@ -49,7 +49,7 @@ const DivFooter = styled("footer", {
 
 export default function Footer() {
 	return (
-		<DivFooter>
+		<DivFooter id="Contato">
 			<a href="./">
 				<img src={Logo} alt="Logo do Sinform" />
 			</a>

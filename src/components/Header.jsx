@@ -229,6 +229,7 @@ function Header() {
 							<a href="./#Sobre">Sobre</a>
 							<a href="./#Programacao">Programação</a>
 							<a href="./#LineUp">Line-up</a>
+							<a href="./#Contato">Contato</a>
 							<Botao href="./inscricao">Quero participar!</Botao>
 						</LinkList>
 					</HeaderContent>
