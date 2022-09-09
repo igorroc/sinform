@@ -196,39 +196,13 @@ function Home() {
 				</div>
 			</Section>
 
-			<Section id="Palestrantes">
+			<Section id="LineUp">
 				<div className="wrapper">
 					<h1>Palestrantes</h1>
 					<p>
 						Conheça os palestrantes que estarão presentes no evento.
 					</p>
 					<Palestrantes />
-				</div>
-			</Section>
-
-			<Section id="Cursos" className="inverted">
-				<div className="wrapper">
-					<h1>
-						Sobre: Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit.
-					</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Neque convallis rhoncus proin nisl ut nunc. Consectetur
-						mauris, blandit commodo viverra arcu ut in lorem.
-					</p>
-					<ul>
-						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
-						</li>
-						<li>Neque convallis rhoncus proin nisl ut nunc.</li>
-						<li>
-							Consectetur mauris, blandit commodo viverra arcu ut
-							in lorem.
-						</li>
-					</ul>
-					<Botao href="./">Quero participar!</Botao>
 				</div>
 			</Section>
 
