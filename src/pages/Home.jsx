@@ -190,7 +190,11 @@ function Home() {
 					<p>
 						Essa edição também contará com um dia bônus, dedicado ao{" "}
 						<b>Campeonato Universitário de Programação (CPU)</b> que
-						ocorrerá no dia 1 de outubro.
+						ocorrerá no dia 1 de outubro. Toda informação sobre o{" "}
+						<b>CPU</b> está no site:{" "}
+						<a href="https://cpu.tecnojr.com.br" target="_blank" id="CPU">
+							cpu.tecnojr.com.br
+						</a>
 					</p>
 
 					<Botao href="./inscricao">Quero participar!</Botao>
