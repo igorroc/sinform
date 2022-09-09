@@ -5,13 +5,14 @@ import Logo from "../assets/logo.png"
 import { Icon } from "@iconify/react"
 
 const DivFooter = styled("footer", {
+	position: "relative",
 	display: "flex",
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "center",
 	gap: "20px",
 	background: "#fff",
-	padding: "50px 0",
+	paddingTop: "50px",
 
 	".redes": {
 		display: "flex",
@@ -21,13 +22,27 @@ const DivFooter = styled("footer", {
 		a: {
 			"&:hover": {
 				"*": {
-					color: "#FFD532",
+					color: "#d95589",
 				},
 			},
 		},
 
 		"*": {
 			transition: "all 100ms ease-out",
+		},
+	},
+
+	"#copy": {
+		width: "100%",
+		marginTop: "20px",
+		fontSize: "0.8rem",
+		background: "#232323",
+		color: "#fff",
+		padding: "10px",
+		textAlign: "center",
+
+		"& a": {
+			color: "#00bda5",
 		},
 	},
 })
@@ -49,6 +64,12 @@ export default function Footer() {
 					<Icon icon="simple-icons:linktree" />
 				</a>
 			</div>
+			<p id="copy">
+				Site desenvolvido com muito ☕ e ❤️ por{" "}
+				<a href="https://ilrocha.com" target="_blank">
+					Igor Rocha
+				</a>
+			</p>
 		</DivFooter>
 	)
 }
