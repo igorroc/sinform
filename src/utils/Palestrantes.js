@@ -17,7 +17,6 @@ export default {
 			foto: imgIngrid,
 			descricao:
 				"Lidera o Grupo de Pesquisa CNPQ 'Realidade Virtual, Realidade Aumentada e mundos virtuais para a inovação na Indústria'",
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
 		},
 		{
@@ -26,7 +25,6 @@ export default {
 			foto: imgPaula,
 			descricao:
 				"Professora do Departamento de Engenharia de Computação e Automação",
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BL green",
 		},
 		{
@@ -35,7 +33,6 @@ export default {
 			foto: imgFlavio,
 			descricao:
 				"Mestre em Ciência da Computação pela USP. Especialista em inteligencia artificial.",
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BL green",
 		},
 		{
@@ -44,28 +41,24 @@ export default {
 			foto: imgKatia,
 			descricao:
 				"Primeira executiva à frente da IBM Brasil. Especialização em tecnologia e negócios.",
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
 		},
 		{
 			nome: "Allan Edgard Silva Freitas",
 			id: "AllanEdgard",
 			foto: imgAllan,
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
 		},
 		{
 			nome: "Thiago Murari",
 			id: "ThiagoMurari",
 			foto: img,
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
 		},
 		{
 			nome: "Thiago Barros Murari",
 			id: "ThiagoBarros",
 			foto: imgThiago,
-			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BL green",
 		},
 		{
@@ -73,7 +66,6 @@ export default {
 			id: "ElinaldoJunior",
 			foto: imgElinaldo,
 			descricao: "Professor de Ciência da Computação (UESC)",
-			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
 			variacao: "extra dots BL orange",
 		},
 		{
@@ -81,14 +73,12 @@ export default {
 			id: "IgorRocha",
 			foto: imgIgor,
 			descricao: "Full Stack e Diretor de Projetos da TecnoJr (UESC)",
-			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
 			variacao: "extra dots TR orange",
 		},
 		{
 			nome: "Napoleão Batista Lemos Filho",
 			id: "NapoleaoBatista",
 			foto: img,
-			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
 			variacao: "extra dots TL orange",
 		},
 		{
@@ -96,7 +86,6 @@ export default {
 			id: "HenriqueSerra",
 			foto: imgHenrique,
 			descricao: "Full Stack e Desenvolvedor Dapps (UESC)",
-			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
 			variacao: "extra dots BR orange",
 		},
 	],
