@@ -58,18 +58,6 @@ const Main = styled("main", {
 		},
 	},
 
-	a: {
-		display: "flex",
-		alignItems: "center",
-		color: "white",
-		textDecoration: "none",
-
-		borderBottom: "1px solid white",
-
-		"*": {
-			color: "white",
-		},
-	},
 })
 
 export default function Inscricao() {
