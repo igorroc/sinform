@@ -29,6 +29,16 @@ const Main = styled("main", {
             8px 25.2px 30px rgba(0, 0, 0, 0.069),
             22px 69px 81px rgba(0, 0, 0, 0.1)`,
 
+		".img": {
+			maxHeight: "300px",
+
+			img: {
+				height: "100%",
+				width: "100%",
+				maxHeight: "300px",
+				objectFit: "contain",
+			},
+		},
 		"&>p": {
 			margin: "30px 0",
 		},
@@ -59,7 +69,6 @@ export default function Programacao() {
 		const seconds = setInterval(() => {
 			setCount((prev) => prev + 1)
 		}, 1000)
-		console.log(count)
 
 		return () => {
 			clearTimeout(redirect)
