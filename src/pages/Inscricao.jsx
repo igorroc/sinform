@@ -56,7 +56,7 @@ export default function Inscricao() {
 	// useEffect(() => {
 	// 	const redirect = setTimeout(() => {
 	// window.location.href =
-	// 	"https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing"
+	// 	"https://www.sympla.com.br/sinform-2022__1711481"
 	// 	}, 3000)
 	// 	const seconds = setInterval(() => {
 	// 		setCount((prev) => prev + 1)
@@ -85,7 +85,7 @@ export default function Inscricao() {
 				</p>
 				{/* <div className="small">
 					<p>Caso você não seja redirecionado, clique no link:</p>
-					<a href="https://sympla.com">https://sympla.com</a>
+					<a href="https://www.sympla.com.br/sinform-2022__1711481">https://www.sympla.com.br/sinform-2022__1711481</a>
 				</div> */}
 				<div className="bar"></div>
 			</div>
