@@ -3,6 +3,7 @@ import React from "react"
 import { useEffect } from "react"
 import { useState } from "react"
 import send from "../assets/send.gif"
+import clock from "../assets/clock.gif"
 
 const Main = styled("main", {
 	background: "#232323",
@@ -52,37 +53,40 @@ export default function Inscricao() {
 	const [count, setCount] = useState(0)
 	const frases = ["3 segundos", "2 segundos", "1 segundo", "0 segundos"]
 
-	useEffect(() => {
-		const redirect = setTimeout(() => {
-			// window.location.href =
-			// 	"https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing"
-		}, 3000)
-		const seconds = setInterval(() => {
-			setCount((prev) => prev + 1)
-		}, 1000)
-		console.log(count)
+	// useEffect(() => {
+	// 	const redirect = setTimeout(() => {
+	// window.location.href =
+	// 	"https://docs.google.com/spreadsheets/d/1BJ-CTaO9YlTYefxjHvqUM_E0r0KPv744WaYqf1ZptiA/edit?usp=sharing"
+	// 	}, 3000)
+	// 	const seconds = setInterval(() => {
+	// 		setCount((prev) => prev + 1)
+	// 	}, 1000)
+	// 	console.log(count)
 
-		return () => {
-			clearTimeout(redirect)
-			clearInterval(seconds)
-		}
-	}, [])
+	// 	return () => {
+	// 		clearTimeout(redirect)
+	// 		clearInterval(seconds)
+	// 	}
+	// }, [])
+
 
 	return (
 		<Main>
 			<div className="modal">
 				<div className="img">
-					<img src={send} alt="send" />
+					<img src={clock} alt="send" />
 				</div>
 				<h1>Aguente firme!</h1>
 				<p>
-					Você vai ser redirecionado para outra página, deve levar{" "}
-					{frases[count]}.
+					O link para o evento vai estar disponível às 20h de hoje
+					(09/09)
+					{/* Você vai ser redirecionado para outra página, deve levar{" "}
+					{frases[count]}. */}
 				</p>
-				<div className="small">
+				{/* <div className="small">
 					<p>Caso você não seja redirecionado, clique no link:</p>
 					<a href="https://sympla.com">https://sympla.com</a>
-				</div>
+				</div> */}
 				<div className="bar"></div>
 			</div>
 		</Main>
