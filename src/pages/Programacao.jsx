@@ -2,7 +2,7 @@ import { styled } from "@stitches/react"
 import React from "react"
 import { useState } from "react"
 import { useEffect } from "react"
-import download from "../assets/download.gif"
+import send from "../assets/send.gif"
 
 const Main = styled("main", {
 	background: "#232323",
@@ -71,7 +71,7 @@ export default function Programacao() {
 		<Main>
 			<div className="modal">
 				<div className="img">
-					<img src={download} alt="send" />
+					<img src={send} alt="send" />
 				</div>
 				<h1>Aguente firme!</h1>
 				<p>
