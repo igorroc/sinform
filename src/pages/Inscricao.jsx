@@ -4,18 +4,20 @@ import { useEffect } from "react"
 import { useState } from "react"
 import send from "../assets/send.gif"
 import clock from "../assets/clock.gif"
+import { Icon } from "@iconify/react"
 
 const Main = styled("main", {
 	background: "#232323",
 	width: "100vw",
 	height: "100vh",
 	display: "flex",
+	gap: "50px",
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "center",
 
 	".modal": {
-		position: "absolute",
+		position: "relative",
 		background: "#fff",
 		padding: "30px",
 		paddingBottom: "60px",
@@ -30,6 +32,16 @@ const Main = styled("main", {
             8px 25.2px 30px rgba(0, 0, 0, 0.069),
             22px 69px 81px rgba(0, 0, 0, 0.1)`,
 
+		".img": {
+			maxHeight: "300px",
+
+			img: {
+				height: "100%",
+				width: "100%",
+				maxHeight: "300px",
+				objectFit: "contain",
+			},
+		},
 		"&>p": {
 			margin: "30px 0",
 		},
@@ -45,6 +57,19 @@ const Main = styled("main", {
 			width: "100%",
 			height: "50px",
 			background: "linear-gradient(to right, #5b78be, #374872)",
+		},
+	},
+	
+	a: {
+		display: "flex",
+		alignItems: "center",
+		color: "white",
+		textDecoration: "none",
+
+		borderBottom: "1px solid white",
+
+		"*": {
+			color: "white",
 		},
 	},
 })
@@ -69,7 +94,6 @@ export default function Inscricao() {
 	// 	}
 	// }, [])
 
-
 	return (
 		<Main>
 			<div className="modal">
@@ -89,6 +113,10 @@ export default function Inscricao() {
 				</div> */}
 				<div className="bar"></div>
 			</div>
+			<a href="/">
+				<Icon icon="eva:arrow-ios-back-fill" />
+				Voltar
+			</a>
 		</Main>
 	)
 }
