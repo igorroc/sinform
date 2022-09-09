@@ -1,24 +1,89 @@
-import img from "../assets/person.webp"
+import img from "../assets/placeholder.jpg"
 import imgIgor from "../assets/palestrantes/igorrocha.jpg"
+import imgElinaldo from "../assets/palestrantes/elinaldo.jpg"
+import imgPaula from "../assets/palestrantes/paula.png"
+import imgIngrid from "../assets/palestrantes/ingrid.png"
+import imgHenrique from "../assets/palestrantes/henrique.png"
+import imgFlavio from "../assets/palestrantes/flavio.png"
+import imgKatia from "../assets/palestrantes/katia.png"
+import imgAllan from "../assets/palestrantes/allan.png"
 
 export default {
 	info: [
 		{
 			nome: "Ingrid Winkler",
 			id: "IngridWinkler",
-			foto: "https://avatars.githubusercontent.com/u/15063205?v=4",
-			descricao: "Dev na MetaVerso",
+			foto: imgIngrid,
+			descricao:
+				"Lidera o Grupo de Pesquisa CNPQ 'Realidade Virtual, Realidade Aumentada e mundos virtuais para a inovação na Indústria'",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
-			variacao: "extra leaf TR blue",
+			variacao: "extra leaf BL green",
+		},
+		{
+			nome: "Paula Dornhofer Paro Costa",
+			id: "PaulaDornhofer",
+			foto: imgPaula,
+			descricao:
+				"Professora do Departamento de Engenharia de Computação e Automação",
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BR green",
+		},
+		{
+			nome: "Flavio Shigeo Yamamoto",
+			id: "FlavioShigeo",
+			foto: imgFlavio,
+			descricao:
+				"Mestre em Ciência da Computação pela USP. Especialista em inteligencia artificial.",
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BL green",
+		},
+		{
+			nome: "Katia Vaskys",
+			id: "KatiaVaskys",
+			foto: imgKatia,
+			descricao: "Primeira executiva à frente da IBM Brasil.",
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BL green",
+		},
+		{
+			nome: "Allan Edgard Silva Freitas",
+			id: "AllanEdgard",
+			foto: imgAllan,
+			descricao: "Primeira executiva à frente da IBM Brasil.",
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BR green",
+		},
+		{
+			nome: "Elinaldo Júnior",
+			id: "ElinaldoJunior",
+			foto: imgElinaldo,
+			descricao: "Professor de Ciência da Computação (UESC)",
+			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
+			variacao: "extra dots BL orange",
 		},
 		{
 			nome: "Igor Rocha",
 			id: "IgorRocha",
 			foto: imgIgor,
-			descricao:
-				"Diretor de Projetos na TecnoJr",
+			descricao: "Full Stack e Diretor de Projetos da TecnoJr (UESC)",
 			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
-			variacao: "extra dots BL green",
+			variacao: "extra dots TR orange",
+		},
+		{
+			nome: "Napoleão Batista Lemos Filho",
+			id: "NapoleaoBatista",
+			foto: img,
+			descricao: "Descricao",
+			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
+			variacao: "extra dots TL orange",
+		},
+		{
+			nome: "Henrique Serra",
+			id: "HenriqueSerra",
+			foto: imgHenrique,
+			descricao: "Full Stack e Desenvolvedor Dapps (UESC)",
+			links: ["https://www.linkedin.com/in/igor-rocha-1b1b3b1a3/"],
+			variacao: "extra dots BR orange",
 		},
 	],
 }

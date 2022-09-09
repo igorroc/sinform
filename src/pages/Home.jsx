@@ -198,7 +198,7 @@ function Home() {
 
 			<Section id="LineUp">
 				<div className="wrapper">
-					<h1>Palestrantes</h1>
+					<h1>Line Up</h1>
 					<p>
 						Conheça os palestrantes que estarão presentes no evento.
 					</p>

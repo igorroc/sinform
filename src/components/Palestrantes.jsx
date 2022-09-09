@@ -11,11 +11,14 @@ const Wrapper = styled("div", {
 
 	".person": {
 		position: "relative",
+		maxWidth: "300px",
+		height: "max-content",
 		".pic": {
 			position: "relative",
 			width: "300px",
 			height: "300px",
 			overflow: "hidden",
+			marginBottom: "20px",
 			transition: "all 500ms ease-out",
 
 			img: {
@@ -63,7 +66,7 @@ const Wrapper = styled("div", {
 					height: "100%",
 					borderRadius: "50%",
 					// background: "",
-					top: "calc(-200% - 20px)",
+					top: "calc(100% + 20px)",
 				},
 			},
 
@@ -78,13 +81,22 @@ const Wrapper = styled("div", {
 					background: "#00a4bd",
 				},
 			},
-			"&.yellow": {
-				background: "#f5c26b",
+			"&.orange": {
+				background: "#f29249",
 				"&:before": {
-					background: "#f5c26b",
+					background: "#f29249",
 				},
 				"&:after": {
-					background: "#f5c26b",
+					background: "#f29249",
+				},
+			},
+			"&.yellow": {
+				background: "#f2ef49",
+				"&:before": {
+					background: "#f2ef49",
+				},
+				"&:after": {
+					background: "#f2ef49",
 				},
 			},
 			"&.green": {
@@ -110,9 +122,17 @@ const Wrapper = styled("div", {
 				top: "0",
 				right: "0",
 			},
+			"&.TL": {
+				top: "0",
+				left: "0",
+			},
 			"&.BL": {
 				bottom: "0",
 				left: "0",
+			},
+			"&.BR": {
+				bottom: "0",
+				right: "0",
 			},
 		},
 
@@ -124,8 +144,14 @@ const Wrapper = styled("div", {
 			".TR": {
 				transform: "translate(100%, -100%)",
 			},
+			".TL": {
+				transform: "translate(-100%, -100%)",
+			},
 			".BL": {
 				transform: "translate(-100%, 100%)",
+			},
+			".BR": {
+				transform: "translate(100%, 100%)",
 			},
 		},
 	},
