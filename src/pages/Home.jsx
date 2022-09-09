@@ -132,7 +132,10 @@ function Home() {
 					<Botao
 						href="./inscricao"
 						variant
-						style={{ fontSize: width < 600 && "1em", lineHeight: width < 600 && "2.5em" }}
+						style={{
+							fontSize: width < 600 && "1em",
+							lineHeight: width < 600 && "2.5em",
+						}}
 					>
 						Quero participar!
 					</Botao>
@@ -144,28 +147,38 @@ function Home() {
 				<div className="wrapper">
 					<h1>Sobre a SINFORM</h1>
 					<p>
-						O <b>SINFORM</b> é a Semana de Informática promovida
-						pela UESC em parceria com o curso de Ciência da
-						Computação. O evento reúne diversos profissionais do
-						ramo da tecnologia que promoverão palestras e
-						minicursos. Em sua XX (vigésima) edição o <b>SINFORM</b>{" "}
-						trará discussões a respeito da sua temática principal:{" "}
-						<b>Metaverso</b>; mostrando de que forma aqueles, que
-						almejam seguir uma carreira na área da tecnologia,
-						poderão se aprofundar e aproveitar dessa nova realidade.
+						A <b>SINFORM</b> é um evento anual promovido pelo Centro
+						Acadêmico de Ciência da Computação (<b>CACIC</b>), pelo
+						Colegiado de Ciência da Computação (<b>COLCIC</b>) e
+						pelo Departamento de Ciências Exatas e Tecnológicas (
+						<b>DCET</b>) da Universidade Estadual de Santa Cruz (
+						<b>UESC</b>).
 					</p>
 					<p>
-						O <b>SINFORM</b> 2022 acontecerá nos dias 28, 29 e 30 de
+						O evento visa promover o <b>intercâmbio científico</b>{" "}
+						entre estudantes, professores, empresários e
+						pesquisadores da área de computação em nível nacional,
+						bem como sua atualização técnico-científica, divulgando
+						o <b>potencial dos futuros profissionais da região</b>.
+						Além disso, o evento oferece{" "}
+						<b>minicursos e palestras</b> à comunidade, contribuindo
+						para a <b>inclusão digital</b> e promovendo a{" "}
+						<b>difusão do conhecimento</b>.
+					</p>
+					<p>
+						O <b>SINFORM 2022</b> acontecerá nos dias 28, 29 e 30 de
 						setembro, e sua programação contará com minicursos pela
-						manhã, palestras a tarde e Lives em nosso canal do
-						YouTube pela noite.
+						manhã, palestras a tarde e Lives em nosso{" "}
+						<a target="_blank" href="https://www.youtube.com/SINFORMuesc">
+							canal do YouTube
+						</a>{" "}
+						pela noite.
 					</p>
 					<p>
 						Essa edição também contará com um dia bônus, dedicado ao{" "}
 						<b>Campeonato Universitário de Programação (CPU)</b> que
 						ocorrerá no dia 1 de outubro.
 					</p>
-					<p> Participe! O evento é 100% ONLINE e GRATUITO.</p>
 
 					<Botao href="./inscricao">Quero participar!</Botao>
 				</div>
