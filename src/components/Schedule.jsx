@@ -88,7 +88,7 @@ const Wrapper = styled("div", {
 
 				"& .title": {
 					position: "relative",
-					background: "linear-gradient(to top, #fbbc04, #cf9b06)",
+					background: "linear-gradient(to top, #fbbc04, #d09c06)",
 					width: "calc(100% - 90px)",
 					minHeight: "80px",
 					display: "flex",
@@ -101,15 +101,15 @@ const Wrapper = styled("div", {
 					textAlign: "center",
 					padding: "5px",
 				},
-				
-				".content":{
+
+				".content": {
 					display: "flex",
 					flexDirection: "column",
 					alignItems: "center",
 					justifyContent: "center",
 					width: "calc(100% - 90px)",
 					marginLeft: "90px",
-				}
+				},
 			},
 
 			"&.minicurso": {
@@ -261,6 +261,7 @@ const Wrapper = styled("div", {
 	},
 })
 
+
 export default function Schedule() {
 	const [isDesktop, setIsDesktop] = useState(
 		window.matchMedia("(min-width: 1000px)").matches
@@ -284,7 +285,7 @@ export default function Schedule() {
 				<a href="#01-10">01/10</a>
 			</div>
 			{Programacao.info.map((info, indexGlobal) => (
-				<div left key={indexGlobal} className="group">
+				<div key={indexGlobal} className="group">
 					<div className="line">
 						<h2 className="dia" id={info.id}>
 							{info.dia}
