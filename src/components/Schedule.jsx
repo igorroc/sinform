@@ -251,6 +251,7 @@ export default function Schedule() {
 	return (
 		<Wrapper>
 			<div className="links">
+				Links rápidos
 				<a href="#28-09">28/09</a>
 				<a href="#29-09">29/09</a>
 				<a href="#30-09">30/09</a>
