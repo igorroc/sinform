@@ -15,6 +15,7 @@ const Floating = styled("a", {
 	alignItems: "center",
 	justifyContent: "center",
 	cursor: "pointer",
+	boxShadow: "0 10px 10px rgba(0, 0, 0, 0.2)",
 
 	fontWeight: "bold",
 	fontSize: "2.5rem",
@@ -22,7 +23,7 @@ const Floating = styled("a", {
 
 
 	"&:hover": {
-		transform: "scale(1.1)",
+		transform: "scale(1.2)",
 	},
 	"*": {
 		color: "#fff",
