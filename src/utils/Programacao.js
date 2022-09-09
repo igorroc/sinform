@@ -66,7 +66,7 @@ export default {
 					palestrante: "Professor Elinaldo",
 					descricao: "Minicurso: Mais informações em breve",
 					tipo: "minicurso",
-					link: "#Elinaldo",
+					link: "#ElinaldoJunior",
 				},
 				{
 					inicio: "08:00",
@@ -235,10 +235,8 @@ export default {
 					inicio: "09:00",
 					fim: "11:00",
 					titulo: "Aquecimento - CPU",
-					palestrante: "Link para inscrição",
-					link: "https://cpu.tecnojr.com.br/",
-					descricao:
-						"Aquecimento para o Campeonato de Programação Universitária",
+					palestrante: "Saiba mais",
+					link: "#CPU",
 					tipo: "live",
 				},
 				{
@@ -251,7 +249,7 @@ export default {
 					inicio: "13:30",
 					fim: "17:30",
 					titulo: "CPU",
-					palestrante: "Link para inscrição",
+					palestrante: "Saiba mais",
 					link: "#CPU",
 					tipo: "live",
 				},

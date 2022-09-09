@@ -42,7 +42,8 @@ export default {
 			nome: "Katia Vaskys",
 			id: "KatiaVaskys",
 			foto: imgKatia,
-			descricao: "Primeira executiva à frente da IBM Brasil.",
+			descricao:
+				"Primeira executiva à frente da IBM Brasil. Especialização em tecnologia e negócios.",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
 		},
