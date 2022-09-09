@@ -54,6 +54,13 @@ export default {
 			variacao: "extra leaf BR green",
 		},
 		{
+			nome: "Thiago Murari",
+			id: "ThiagoMurari",
+			foto: img,
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BR green",
+		},
+		{
 			nome: "Thiago Barros Murari",
 			id: "ThiagoBarros",
 			foto: imgThiago,
