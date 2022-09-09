@@ -64,8 +64,8 @@ export default function Ajuda() {
 
 	useEffect(() => {
 		const redirect = setTimeout(() => {
-			// window.location.href =
-			// 	"https://forms.gle/UCnFo5WXteUyNiQX6"
+			window.location.href =
+				"https://forms.gle/UCnFo5WXteUyNiQX6"
 		}, 3000)
 
 		const seconds = setInterval(() => {
