@@ -49,15 +49,18 @@ const Wrapper = styled("div", {
 			marginLeft: "20px",
 
 			"& .hora": {
+				position: "absolute",
 				background: "linear-gradient(to right, #fbbc04, #cf9b06)",
 				width: "90px",
-				height: "80px",
-				padding: "5px",
+				top: 0,
+				bottom: 0,
+				left: "-90px",
+				padding: "0 5px",
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center",
 				justifyContent: "center",
-				position: "relative",
+				fontSize: "1rem",
 
 				"& span": {
 					writingMode: "vertical-rl",
@@ -84,8 +87,9 @@ const Wrapper = styled("div", {
 				textAlign: "justify",
 
 				"& .title": {
+					position: "relative",
 					background: "linear-gradient(to top, #fbbc04, #cf9b06)",
-					width: "100%",
+					width: "calc(100% - 90px)",
 					minHeight: "80px",
 					display: "flex",
 					flexDirection: "column",
@@ -93,9 +97,19 @@ const Wrapper = styled("div", {
 					justifyContent: "center",
 					fontSize: "2rem",
 					marginBottom: "10px",
+					marginLeft: "90px",
 					textAlign: "center",
 					padding: "5px",
 				},
+				
+				".content":{
+					display: "flex",
+					flexDirection: "column",
+					alignItems: "center",
+					justifyContent: "center",
+					width: "calc(100% - 90px)",
+					marginLeft: "90px",
+				}
 			},
 
 			"&.minicurso": {
@@ -186,6 +200,8 @@ const Wrapper = styled("div", {
 					marginRight: "20px",
 
 					"& .hora": {
+						left: "unset",
+						right: "-90px",
 						background:
 							"linear-gradient(to left, #ffd532, #ffb11c)",
 
@@ -193,6 +209,16 @@ const Wrapper = styled("div", {
 							left: "unset",
 							right: "-5px",
 						},
+					},
+
+					"& .info .title": {
+						marginRight: "90px",
+						marginLeft: "unset",
+					},
+
+					"& .content": {
+						marginRight: "90px",
+						marginLeft: "unset",
 					},
 
 					"&.minicurso": {
@@ -274,17 +300,32 @@ export default function Schedule() {
 										p.tipo ? `item ${p.tipo}` : "item"
 									}
 								>
-									<div className="hora">
-										<h3>{p.inicio}</h3>
-										<span>•••</span>
-										<h3>{p.fim}</h3>
-									</div>
 									<div className="info">
-										<h4 className="title">{p.titulo}</h4>
-										{p.palestrante && (
-											<a href={p.link}>{p.palestrante}</a>
-										)}
-										<p>{p.descricao}</p>
+										<div className="title">
+											<div className="hora">
+												<h3>{p.inicio}</h3>
+												<span>•••</span>
+												<h3>{p.fim}</h3>
+											</div>
+											<h4>{p.titulo}</h4>
+										</div>
+										<div className="content">
+											{p.palestrante && (
+												<a href={p.link}>
+													{p.palestrante}
+												</a>
+											)}
+											{p.palestrante == "A definir" ? (
+												<a
+													href="https://instagram.com/cacicuesc"
+													target="_blank"
+												>
+													Clique aqui para saber mais
+												</a>
+											) : (
+												<p>{p.descricao}</p>
+											)}
+										</div>
 									</div>
 								</div>
 							</Fade>
