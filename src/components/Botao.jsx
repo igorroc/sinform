@@ -58,7 +58,7 @@ const Button = styled("a", {
 	transition: "all 300ms ease-out",
 
 	"&:hover": {
-		backgroundColor: "var(--primary-color-darker)",
+		backgroundColor: "#d95589",
 	},
 
 	"&.variant": {
