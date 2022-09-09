@@ -1,4 +1,4 @@
-import img from "../assets/placeholder.jpg"
+import img from "../assets/palestrantes/placeholder.jpg"
 import imgIgor from "../assets/palestrantes/igorrocha.jpg"
 import imgElinaldo from "../assets/palestrantes/elinaldo.jpg"
 import imgPaula from "../assets/palestrantes/paula.png"
