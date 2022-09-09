@@ -115,6 +115,7 @@ function Botao(props) {
 			href={props.href}
 			className={props.variant && "variant"}
 			style={props.style}
+			target={props.target}
 		>
 			{props.children}
 		</Button>
