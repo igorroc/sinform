@@ -192,7 +192,7 @@ function Home() {
 						<b>Campeonato Universitário de Programação (CPU)</b> que
 						ocorrerá no dia 1 de outubro. Toda informação sobre o{" "}
 						<b>CPU</b> está no site:{" "}
-						<a href="https://cpu.tecnojr.com.br" target="_blank" id="CPU">
+						<a href="https://cpu.tecnojr.com.br" target="_blank">
 							cpu.tecnojr.com.br
 						</a>
 					</p>
@@ -220,6 +220,39 @@ function Home() {
 						Conheça os palestrantes que estarão presentes no evento.
 					</p>
 					<Palestrantes />
+				</div>
+			</Section>
+
+			<Section id="CPU" className="inverted">
+				<div className="wrapper">
+					<h1>Sobre o CPU</h1>
+					<p>
+						O CPU é um <b>campeonato de programação</b> que ocorre
+						todos os anos. O evento é promovido pela <b>TecnoJr</b>{" "}
+						(Empresa Júnior de Computação da UESC). Destinado aos
+						alunos do curso de graduação na área de Computação e
+						afins (Ciência da Computação, Engenharia de Computação,
+						Sistemas de Informação, Matemática, etc.), com o
+						objetivo de:
+					</p>
+					<ul>
+						<li>
+							Estimular o <b>interesse pela programação</b> de
+							computadores
+						</li>
+						<li>
+							Proporcionar a <b>prática</b> nas disciplinas de{" "}
+							<b>programação</b>
+						</li>
+						<li>
+							Criar novos <b>desafios</b> aos estudantes das
+							Faculdades ou Universidades da região
+						</li>
+						<li>Entre outros.</li>
+					</ul>
+					<Botao href="https://cpu.tecnojr.com.br" target="_blank">
+						Quero competir!
+					</Botao>
 				</div>
 			</Section>
 
