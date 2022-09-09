@@ -7,6 +7,7 @@ import imgHenrique from "../assets/palestrantes/henrique.png"
 import imgFlavio from "../assets/palestrantes/flavio.png"
 import imgKatia from "../assets/palestrantes/katia.png"
 import imgAllan from "../assets/palestrantes/allan.png"
+import imgThiago from "../assets/palestrantes/thiago.png"
 
 export default {
 	info: [
@@ -17,7 +18,7 @@ export default {
 			descricao:
 				"Lidera o Grupo de Pesquisa CNPQ 'Realidade Virtual, Realidade Aumentada e mundos virtuais para a inovação na Indústria'",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
-			variacao: "extra leaf BL green",
+			variacao: "extra leaf BR green",
 		},
 		{
 			nome: "Paula Dornhofer Paro Costa",
@@ -26,7 +27,7 @@ export default {
 			descricao:
 				"Professora do Departamento de Engenharia de Computação e Automação",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
-			variacao: "extra leaf BR green",
+			variacao: "extra leaf BL green",
 		},
 		{
 			nome: "Flavio Shigeo Yamamoto",
@@ -43,7 +44,7 @@ export default {
 			foto: imgKatia,
 			descricao: "Primeira executiva à frente da IBM Brasil.",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
-			variacao: "extra leaf BL green",
+			variacao: "extra leaf BR green",
 		},
 		{
 			nome: "Allan Edgard Silva Freitas",
@@ -52,6 +53,14 @@ export default {
 			descricao: "Primeira executiva à frente da IBM Brasil.",
 			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
 			variacao: "extra leaf BR green",
+		},
+		{
+			nome: "Thiago Barros Murari",
+			id: "ThiagoBarros",
+			foto: imgThiago,
+			descricao: "Descricao",
+			links: ["https://www.linkedin.com/in/ingrid-winkler-0b0b3b1a3/"],
+			variacao: "extra leaf BL green",
 		},
 		{
 			nome: "Elinaldo Júnior",

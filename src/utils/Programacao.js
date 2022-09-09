@@ -295,8 +295,8 @@ export default {
 					tipo: "live",
 				},
 				{
-					inicio: "17:30",
-					fim: "18:00",
+					// inicio: "17:30",
+					// fim: "18:00",
 					titulo: "Premiação",
 					tipo: "palestra",
 				},
