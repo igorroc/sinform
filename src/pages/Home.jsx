@@ -34,10 +34,15 @@ const Main = styled("main", {
 		},
 
 		"&#asset": {
+			display: "none",
 			position: "absolute",
 			right: 0,
 			top: "50%",
 			transform: "translateY(-50%)",
+
+			"@bp2": {
+				display: "block",
+			},
 		},
 	},
 
@@ -50,12 +55,13 @@ const Main = styled("main", {
 
 		display: "flex",
 		flexDirection: "column",
-		alignItems: "start",
+		alignItems: "center",
 		justifyContent: "center",
 		gap: "10px",
 		width: "90%",
 		maxWidth: "var(--max-width)",
 		textShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+		textAlign: "center",
 
 		"*": {
 			color: "#fff",
@@ -70,6 +76,11 @@ const Main = styled("main", {
 				padding: "0 50px",
 				background: "linear-gradient(to right, #d4419b, #ea9c4b)",
 			},
+		},
+
+		"@bp2": {
+			alignItems: "start",
+			textAlign: "left",
 		},
 	},
 })
@@ -118,7 +129,6 @@ function Home() {
 			<Main>
 				<img src={BG} id="bg" />
 				<div className="info">
-					{/* <img src={asset} id="asset" /> */}
 					<img src={assetGif} id="asset" />
 
 					<h1 style={{ fontSize: width < 600 && "1em" }}>
@@ -169,7 +179,10 @@ function Home() {
 						O <b>SINFORM 2022</b> acontecerá nos dias 28, 29 e 30 de
 						setembro, e sua programação contará com minicursos pela
 						manhã, palestras a tarde e Lives em nosso{" "}
-						<a target="_blank" href="https://www.youtube.com/SINFORMuesc">
+						<a
+							target="_blank"
+							href="https://www.youtube.com/SINFORMuesc"
+						>
 							canal do YouTube
 						</a>{" "}
 						pela noite.
