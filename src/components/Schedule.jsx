@@ -9,6 +9,7 @@ const Wrapper = styled("div", {
 
 	".links": {
 		display: "flex",
+		flexWrap: "wrap",
 		alignItems: "center",
 		justifyContent: "center",
 		gap: "10px",
@@ -41,6 +42,7 @@ const Wrapper = styled("div", {
 				marginLeft: "-40px",
 			},
 		},
+
 		".item": {
 			display: "flex",
 			flexDirection: "row",
@@ -51,10 +53,11 @@ const Wrapper = styled("div", {
 			"& .hora": {
 				position: "absolute",
 				background: "linear-gradient(to right, #fbbc04, #cf9b06)",
-				width: "90px",
+				width: "60px",
 				top: 0,
 				bottom: 0,
-				left: "-90px",
+				zIndex: -1,
+				left: "-70px",
 				padding: "0 5px",
 				display: "flex",
 				flexDirection: "column",
@@ -83,7 +86,7 @@ const Wrapper = styled("div", {
 				alignItems: "center",
 				justifyContent: "center",
 				width: "100%",
-				maxWidth: "500px",
+				// maxWidth: "500px",
 				textAlign: "justify",
 
 				"& .title": {
@@ -107,8 +110,6 @@ const Wrapper = styled("div", {
 					flexDirection: "column",
 					alignItems: "center",
 					justifyContent: "center",
-					width: "calc(100% - 90px)",
-					marginLeft: "90px",
 				},
 			},
 
@@ -201,7 +202,7 @@ const Wrapper = styled("div", {
 
 					"& .hora": {
 						left: "unset",
-						right: "-90px",
+						right: "-70px",
 						background:
 							"linear-gradient(to left, #ffd532, #ffb11c)",
 
@@ -257,10 +258,14 @@ const Wrapper = styled("div", {
 					},
 				},
 			},
+
+			".content": {
+				width: "calc(100% - 90px)",
+				marginLeft: "90px",
+			},
 		},
 	},
 })
-
 
 export default function Schedule() {
 	const [isDesktop, setIsDesktop] = useState(

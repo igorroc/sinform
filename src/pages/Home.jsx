@@ -100,9 +100,13 @@ const Section = styled("section", {
 		flexDirection: "column",
 		gap: "30px",
 		margin: "0 auto",
-		padding: "50px",
+		padding: "10px",
 
 		maxWidth: "var(--max-width)",
+
+		"@bp2": {
+			padding: "50px",
+		},
 	},
 
 	"&>img": {
