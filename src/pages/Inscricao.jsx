@@ -57,7 +57,6 @@ const Main = styled("main", {
 			background: "linear-gradient(to right, #5b78be, #374872)",
 		},
 	},
-
 })
 
 export default function Inscricao() {

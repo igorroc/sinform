@@ -4,7 +4,6 @@ import LogoSmall from "../assets/favicon.png"
 import Botao from "./Botao"
 import MaxWrapper from "./Global/MaxWrapper"
 import { useEffect, useState } from "react"
-import { Icon } from "@iconify/react"
 
 const Space = styled("div", {
 	height: "80px",
@@ -90,7 +89,7 @@ const LinkList = styled("div", {
 	zIndex: 10,
 
 	backgroundColor: "#fff",
-	transition: "all 600ms ease-out",
+	transition: "all 400ms ease-out",
 
 	a: {
 		color: "#000",
