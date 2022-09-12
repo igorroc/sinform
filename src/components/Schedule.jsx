@@ -278,8 +278,6 @@ export default function Schedule() {
 			.addEventListener("change", (e) => setIsDesktop(e.matches))
 	}, [])
 
-	console.log(isDesktop)
-
 	return (
 		<Wrapper>
 			<div className="links">

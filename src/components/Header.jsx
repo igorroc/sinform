@@ -182,7 +182,6 @@ function Header() {
 	}, [])
 
 	function menuToggle() {
-		console.log("menuToggle")
 		setIsMenuOpen(!isMenuOpen)
 	}
 

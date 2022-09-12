@@ -71,7 +71,6 @@ export default function Inscricao() {
 		const seconds = setInterval(() => {
 			setCount((prev) => prev + 1)
 		}, 1000)
-		console.log(count)
 
 		return () => {
 			clearTimeout(redirect)
