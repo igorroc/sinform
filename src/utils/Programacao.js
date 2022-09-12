@@ -64,7 +64,7 @@ export default {
 					fim: "12:00",
 					titulo: "Jogos com Lua",
 					palestrante: "Professor Elinaldo",
-					descricao: "Minicurso: Mais informações em breve",
+					descricao: "A grande maioria dos estudantes entra no curso de Ciência da Computação com intuito de criar jogos, mas quase todos desistem no meio do caminho, mesmo em um mercado crescente. Este minicurso destaca as possibilidades que Lua tem em relação a criação de jogos, e como esse processo pode ser mais fácil do que a gente imagina. Vamos aprender alguns conceitos básicos de desenvolvimento de jogos e como implementá-los na biblioteca Love2d.",
 					tipo: "minicurso",
 					link: "#ElinaldoJunior",
 				},
