@@ -104,6 +104,10 @@ const Section = styled("section", {
 
 		maxWidth: "var(--max-width)",
 
+		".lista": {
+			marginLeft: "20px",
+		},
+
 		"@bp2": {
 			padding: "50px",
 		},
@@ -295,7 +299,7 @@ function Home() {
 						Sistemas de Informação, Matemática, etc.), com o
 						objetivo de:
 					</p>
-					<ul>
+					<ul className="lista">
 						<li>
 							Estimular o <b>interesse pela programação</b> de
 							computadores
