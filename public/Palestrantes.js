@@ -1,13 +1,13 @@
-import img from "../assets/palestrantes/placeholder.jpg"
-import imgIgor from "../assets/palestrantes/igorrocha.jpg"
-import imgElinaldo from "../assets/palestrantes/elinaldo.jpg"
-import imgPaula from "../assets/palestrantes/paula.png"
-import imgIngrid from "../assets/palestrantes/ingrid.png"
-import imgHenrique from "../assets/palestrantes/henrique.png"
-import imgFlavio from "../assets/palestrantes/flavio.png"
-import imgKatia from "../assets/palestrantes/katia.png"
-import imgAllan from "../assets/palestrantes/allan.png"
-import imgThiago from "../assets/palestrantes/thiago.png"
+import img from "../src/assets/palestrantes/placeholder.jpg"
+import imgIgor from "../src/assets/palestrantes/igorrocha.jpg"
+import imgElinaldo from "../src/assets/palestrantes/elinaldo.jpg"
+import imgPaula from "../src/assets/palestrantes/paula.png"
+import imgIngrid from "../src/assets/palestrantes/ingrid.png"
+import imgHenrique from "../src/assets/palestrantes/henrique.png"
+import imgFlavio from "../src/assets/palestrantes/flavio.png"
+import imgKatia from "../src/assets/palestrantes/katia.png"
+import imgAllan from "../src/assets/palestrantes/allan.png"
+import imgThiago from "../src/assets/palestrantes/thiago.png"
 
 export default {
 	info: [
