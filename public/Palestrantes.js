@@ -50,14 +50,8 @@ export default {
 			variacao: "extra leaf BR green",
 		},
 		{
-			nome: "Thiago Murari",
-			id: "ThiagoMurari",
-			foto: img,
-			variacao: "extra leaf BR green",
-		},
-		{
 			nome: "Thiago Barros Murari",
-			id: "ThiagoBarros",
+			id: "ThiagoMurari",
 			foto: imgThiago,
 			variacao: "extra leaf BL green",
 		},
