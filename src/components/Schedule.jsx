@@ -1,6 +1,6 @@
 import { styled } from "../components/Global/Breakpoints"
 import React, { useEffect, useState } from "react"
-import Programacao from "../utils/Programacao"
+import Programacao from "../../public/Programacao"
 
 import Fade from "react-reveal/Fade"
 

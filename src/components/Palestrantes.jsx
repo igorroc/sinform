@@ -1,7 +1,7 @@
 import React from "react"
 import { styled } from "@stitches/react"
 import img from "../assets/person.webp"
-import data from "../utils/Palestrantes"
+import data from "../../public/Palestrantes"
 
 const Wrapper = styled("div", {
 	display: "flex",
