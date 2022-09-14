@@ -56,6 +56,12 @@ export default {
 			variacao: "extra leaf BL green",
 		},
 		{
+			nome: "Alvaro Coelho",
+			id: "AlvaroCoelho",
+			foto: img,
+			variacao: "extra leaf BL green",
+		},
+		{
 			nome: "Elinaldo Júnior",
 			id: "ElinaldoJunior",
 			foto: imgElinaldo,
