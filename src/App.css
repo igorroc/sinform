@@ -25,3 +25,30 @@ body {
 	background: var(--bg-color);
 	overflow-x: hidden;
 }
+
+#modalNoScript {
+	width: 100vw;
+	height: 100vh;
+	background-color: #1e2d37;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#modalNoScript h1 {
+	max-width: 350px;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+#modalNoScript a {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+}

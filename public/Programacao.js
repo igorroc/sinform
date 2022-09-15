@@ -10,7 +10,7 @@ export default {
 					titulo: "Impacto da transformação digital na sociedade",
 					palestrante: "Thiago Murari",
 					descricao:
-						"Reflexões sobre o impacto da transformação digital na sociedade",
+						"Reflexões sobre o impacto da transformação digital na sociedade.",
 					link: "#ThiagoMurari",
 				},
 				{
