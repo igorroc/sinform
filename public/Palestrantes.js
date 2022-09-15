@@ -1,5 +1,5 @@
 import img from "../src/assets/palestrantes/placeholder.jpg"
-import imgIgor from "../src/assets/palestrantes/igorrocha.jpg"
+import imgIgor from "../src/assets/palestrantes/igor.jpg"
 import imgElinaldo from "../src/assets/palestrantes/elinaldo.jpg"
 import imgPaula from "../src/assets/palestrantes/paula.png"
 import imgIngrid from "../src/assets/palestrantes/ingrid.png"
@@ -81,6 +81,13 @@ export default {
 			foto: imgHenrique,
 			descricao: "Full Stack e Desenvolvedor Dapps (UESC)",
 			variacao: "extra dots BR orange",
+		},
+		{
+			nome: "Mateus Reis",
+			id: "MateusReis",
+			foto: img,
+			descricao: "",
+			variacao: "extra dots TL orange",
 		},
 	],
 }
