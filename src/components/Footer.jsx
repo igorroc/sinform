@@ -14,6 +14,12 @@ const DivFooter = styled("footer", {
 	background: "#fff",
 	paddingTop: "50px",
 
+	"#logo":{
+		height: "80px",
+		img:{
+			height: "100%",
+		}
+	},
 	".redes": {
 		display: "flex",
 		gap: "20px",
@@ -50,7 +56,7 @@ const DivFooter = styled("footer", {
 export default function Footer() {
 	return (
 		<DivFooter id="Contato">
-			<a href="./">
+			<a href="./" id="logo">
 				<img src={Logo} alt="Logo do Sinform" />
 			</a>
 			<h3>Semana de Informática</h3>
