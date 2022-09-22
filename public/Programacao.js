@@ -155,13 +155,21 @@ export default {
 					inicio: "19:00",
 					fim: "20:00",
 					titulo: "Ciência de Dados",
-					palestrante: "João e Paulo",
-					descricao: "Live: Mais informações em breve",
+					// titulo: "Saúde de Ativos de Mina - Ciência de Dados aplicado a Mineração no Brasil",
+					palestrante: "João Lucas & Paulo Henrique",
+					// descricao: `Live: A tomada de decisão nas atividades de manutenção, têm o desafio diário de coletar, classificar,
+					// analisar dados e gerar informações que sejam úteis para as intervenções assertivas. Em meio a
+					// era da Inteligência Artificial (I.A.) a I.A. tem se tornado uma ferramenta essencial em processos
+					// de tomada de decisão de modo a economizar tempo, minimizar custos e otimizar processos.
+					// Neste fórum, será apresentado ao público como a I.A. tem transformado o processo de
+					// monitoramento de equipamentos de mina e ajudado a melhorar a tomada de decisão em ações
+					// preventivas de falhas catastróficas de equipamentos de Mina.`,
 					tipo: "live",
+					// link: "#JoaoLucas",
 				},
 				{
-					inicio: "21:00",
-					fim: "22:00",
+					inicio: "20:00",
+					fim: "21:00",
 					titulo: "MetaVerso",
 					palestrante: "Kevin Talarico",
 					descricao: "Live: Mais informações em breve",

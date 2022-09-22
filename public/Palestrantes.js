@@ -9,6 +9,8 @@ import imgKatia from "../src/assets/palestrantes/katia.png"
 import imgAllan from "../src/assets/palestrantes/allan.png"
 import imgThiago from "../src/assets/palestrantes/thiago.png"
 import imgMarcus from "../src/assets/palestrantes/marcus.png"
+import imgJoao from "../src/assets/palestrantes/joao.jpg"
+import imgPaulo from "../src/assets/palestrantes/paulo.jpg"
 
 export default {
 	info: [
@@ -101,8 +103,19 @@ export default {
 			nome: "Mateus Reis",
 			id: "MateusReis",
 			foto: img,
-			descricao: "",
 			variacao: "extra dots TL orange",
 		},
+		// {
+		// 	nome: "João Lucas Oliveira",
+		// 	id: "JoaoLucas",
+		// 	foto: imgJoao,
+		// 	variacao: "extra triangle BL red",
+		// },
+		// {
+		// 	nome: "Paulo Henrique Dal Bello",
+		// 	id: "PauloHenrique",
+		// 	foto: imgPaulo,
+		// 	variacao: "extra triangle BR red",
+		// },
 	],
 }
