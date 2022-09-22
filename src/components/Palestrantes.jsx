@@ -56,7 +56,6 @@ const Wrapper = styled("div", {
 					width: "100%",
 					height: "100%",
 					borderRadius: "50%",
-					// background: "",
 					top: "calc(-100% - 10px)",
 				},
 				"&:after": {
@@ -65,12 +64,27 @@ const Wrapper = styled("div", {
 					width: "100%",
 					height: "100%",
 					borderRadius: "50%",
-					// background: "",
 					top: "calc(100% + 20px)",
 				},
 			},
 
-			"&.line": {},
+			"&.triangle": {
+				width: "200px",
+				height: "200px",
+
+				"&.TR": {
+					transform: "translate(50%, -50%) rotate(45deg)",
+				},
+				"&.TL": {
+					transform: "translate(-50%, -50%) rotate(45deg)",
+				},
+				"&.BR": {
+					transform: "translate(50%, 50%) rotate(45deg)",
+				},
+				"&.BL": {
+					transform: "translate(-50%, 50%) rotate(45deg)",
+				},
+			},
 
 			"&.blue": {
 				background: "#00a4bd",
@@ -109,12 +123,12 @@ const Wrapper = styled("div", {
 				},
 			},
 			"&.red": {
-				background: "#ff5c35",
+				background: "#eb3941",
 				"&:before": {
-					background: "#ff5c35",
+					background: "#eb3941",
 				},
 				"&:after": {
-					background: "#ff5c35",
+					background: "#eb3941",
 				},
 			},
 
@@ -152,6 +166,37 @@ const Wrapper = styled("div", {
 			},
 			".BR": {
 				transform: "translate(100%, 100%)",
+			},
+
+			".leaf": {
+				transform: "scale(0)",
+				"&.TR": {
+					transformOrigin: "100% 0",
+				},
+				"&.TL": {
+					transformOrigin: "0 0",
+				},
+				"&.BR": {
+					transformOrigin: "100% 100%",
+				},
+				"&.BL": {
+					transformOrigin: "0 100%",
+				},
+			},
+
+			".triangle": {
+				"&.TR": {
+					transform: "translate(100%, -100%)",
+				},
+				"&.TL": {
+					transform: "translate(-100%, -100%)",
+				},
+				"&.BL": {
+					transform: "translate(-100%, 100%)",
+				},
+				"&.BR": {
+					transform: "translate(100%, 100%)",
+				},
 			},
 		},
 	},
