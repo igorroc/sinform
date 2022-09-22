@@ -109,23 +109,41 @@ export default {
 					link: "#MateusReis",
 				},
 				{
-					inicio: "14:00",
-					fim: "15:00",
-					titulo: "Palestra 3",
-					palestrante: "Katia Vaskys",
-					descricao: "Palestra: Mais informações em breve",
-					tipo: "palestra",
-					link: "#KatiaVaskys",
-				},
-				{
-					inicio: "15:00",
-					fim: "16:00",
+					inicio: "13:30",
+					fim: "14:00",
 					titulo: "Deep Techs",
 					palestrante: "Flávio Shigeo Yamamoto",
 					descricao:
 						"Palestra: A onda das startups de base tecnológica ancoradas em pesquisa científica",
 					tipo: "palestra",
 					link: "#FlavioShigeo",
+				},
+				{
+					inicio: "14:30",
+					fim: "15:30",
+					titulo: "A Urgência da Ciência e da Tecnologia",
+					palestrante: "Katia Vaskys",
+					descricao: `Palestra: Em um mundo que se transforma, precisamos ter a cabeça aberta para o aprendizado 
+					constante: aprender sempre, não somente sobre sua área de atuação. É preciso ir 
+					além do seu próprio jardim, conhecendo histórias, realidades e pessoas diferentes. Na 
+					era digital, o que diferencia o humano da máquina são suas características únicas: 
+					perspicácia, adaptabilidade, empatia. 
+					Vamos discutir nossa carreira e nosso papel na sociedade, e como podemos destravar 
+					a inovação em nós mesmos e na sociedade. Em um mundo informado e conectado, a 
+					formação de novos profissionais, o desenvolvimento de novas tecnologias, e a criação 
+					de relacionamentos transparentes e confiáveis, são os fatores essenciais para acelerar 
+					o desenvolvimento social e econômico`,
+					tipo: "palestra",
+					link: "#KatiaVaskys",
+				},
+				{
+					inicio: "15:30",
+					fim: "16:30",
+					titulo: "Evitando Prejuízos com Teste de Software",
+					palestrante: "Marcus Dratovsky",
+					descricao: "Palestra: Mais informações em breve",
+					tipo: "palestra",
+					link: "#MarcusDratovsky",
 				},
 				{
 					inicio: "16:30",

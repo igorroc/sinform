@@ -8,6 +8,7 @@ import imgFlavio from "../src/assets/palestrantes/flavio.png"
 import imgKatia from "../src/assets/palestrantes/katia.png"
 import imgAllan from "../src/assets/palestrantes/allan.png"
 import imgThiago from "../src/assets/palestrantes/thiago.png"
+import imgMarcus from "../src/assets/palestrantes/marcus.png"
 
 export default {
 	info: [
@@ -41,6 +42,14 @@ export default {
 			foto: imgKatia,
 			descricao:
 				"Primeira executiva à frente da IBM Brasil. Especialização em tecnologia e negócios.",
+			variacao: "extra leaf BR green",
+		},
+		{
+			nome: "Marcus Dratovsky",
+			id: "MarcusDratovsky",
+			foto: imgMarcus,
+			descricao:
+				"CEO da X-TESTING, presidente do conselho de administração do Parque Tecnológico da Bahia",
 			variacao: "extra leaf BR green",
 		},
 		{
