@@ -202,6 +202,16 @@ export default {
 					link: "#AllanEdgard",
 				},
 				{
+					inicio: "15:00",
+					fim: "16:00",
+					titulo: "Metaverso",
+					palestrante: "Álvaro Coelho",
+					descricao:
+						"Palestra: Coisas de um mundo virtual para negócios bem reais",
+					tipo: "palestra",
+					link: "#AlvaroCoelho",
+				},
+				{
 					inicio: "16:30",
 					fim: "17:00",
 					titulo: "Coffee Break",
